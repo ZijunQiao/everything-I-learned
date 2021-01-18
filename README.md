@@ -7,5 +7,11 @@ count = 0\
 for index, line in enumerate(open(filepath,'r'))：\
 count += 1
 
+## Javascript
+Rapheal
+
 ## Audio Plugin Development
-use juce API
+use juce API and C++ \
+Observer pattern, \
+DSP: circular buffer(bufferSize=sampleRate*maxDelayTime) for left and right channel and free the memory in destructor(nullprt); feedback*scalar to make it quieter\
+need interpolation,smooth read,and make sure clear memory at the beginning
