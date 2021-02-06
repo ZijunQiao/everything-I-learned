@@ -2,10 +2,16 @@
 ## python
   1.文件行数\
 count = len(open(filepath, 'r').readlines()) \
-**或者**\
+**or**\
 count = 0\
 for index, line in enumerate(open(filepath,'r'))：\
-count += 1
+count += 1\
+  2.dict.clear()\
+ only clear the value, although can't print, we still can use ''=xx  to add value \
+  3.HTTPServer(('', port), MyHTTPRequestHandler)\
+  4. read file\
+with open(file,'r') as f:\
+content = f.read()
 
 ## Javascript
 Rapheal
